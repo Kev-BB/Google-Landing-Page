@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin: 0;
+}
+
+
+/* header navigation links */
+
+.navContainer{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+ .navLeft{
+    display: flex;
+    justify-content: baseline;
+    gap: 20px;
+    margin: 10px;
+}
+
+.navRight{
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    gap: 20px;
+    margin: 10px;
+} 
+
+.apps-icon{
+    display: flex;
+    align-self: center;
+    opacity: 0.5;
+ }
+
+.apps-icon:hover{
+    opacity: 1;
+}
+
+a{
+    text-decoration: none;
+    color: #6c757d;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+button{
+    background-color:  #4285F4;
+    color: white;
+    padding: 5px;
+    height: 30px;
+    width: 70px;
+    border: none;
+    border-radius:5px;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #3a74cf;
+}
+
+/* Search section */
+
+.searchContainer{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.searchBarC{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 35px;
+    margin-top: 20px;
+    border: solid #f2f2f2 2px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.searchBarC:hover{
+    box-shadow: 0 0 5px 1px #e4e4e4;
+}
+
+
+#search{
+    width: 468px;
+    height: 33px;
+    margin-right: 45px ;
+    border: none;
+    outline: none;
+}
+
+.search-icon{
+   position: absolute;
+   left: 10px;
+   top: 7px;
+}
+
+.keyboard-icon{
+    position: absolute;
+    left: 530px;
+    top: 5px;
+    cursor: pointer;
+}
+
+.mic-icon{
+    position: absolute;
+    left: 565px;
+    top: 5px;
+    cursor: pointer;
+}
+
+/* Search Buttons */
+
+.searchButtons{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.gSearch button{
+    width: 105px;
+    height: 36px;
+    background-color: #e5e5e5;
+    color: #112A46;
+    text-align:center;
+}
+
+.fLucky button{
+    width: 150px;
+    height: 36px;
+    background-color: #e5e5e5;
+    color: #112A46;
+    text-align:center;
+}
+
+.sBarText a{
+    color: #4285F4;
+}
+
+/* Footer Navigation Links */
+
+.footerContainer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+.location{
+    border-bottom: 1px solid #e4e4e4;
+    margin-left: 20px;
+    color: #5f6368;
+}
+
+.footerLinks{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.linkM a{
+    margin-left: 10px;
+    padding: 5px 10px;
+    line-height: 40px;
+}
